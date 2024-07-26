@@ -1,5 +1,5 @@
-# Git 설정
-
+# 3. Git 설정
+## Git Config
 Docusaurus 프로젝트를 로컬 PC에서 Git 저장소에 푸시하는 방법은 다음과 같습니다. 아래 단계들을 따라주세요:
 
 1. **Git 설치**:
@@ -86,7 +86,8 @@ SSH 키를 사용하는 것도 좋은 방법입니다. SSH 키를 설정하는 �
    cat ~/.ssh/id_ed25519.pub | xclip    # Linux
    type ~/.ssh/id_ed25519.pub | clip    # Windows
    ```
-   - GitHub의 [SSH 및 GPG 키 설정 페이지](https://github.com/settings/keys)로 이동하여, "New SSH key"를 클릭한 다음 클립보드의 키를 추가합니다.
+
+- GitHub의 [SSH 및 GPG 키 설정 페이지](https://github.com/settings/keys)로 이동하여, "New SSH key"를 클릭한 다음 클립보드의 키를 추가합니다.
 
 3. **원격 URL을 SSH로 변경**:
    ```bash

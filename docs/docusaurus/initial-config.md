@@ -1,4 +1,4 @@
-# Initial Config
+# 2. Initial Config
 
 ### Codeblock 설정
 
