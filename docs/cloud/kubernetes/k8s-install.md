@@ -96,12 +96,10 @@ calico_rr
 - Ping Test
 
 ```bash title="inventory 파일내 특정 서버만 테스트"
-# inventory 파일내 특정 서버만 테스트
 ansible k8s-m1 -i /root/kubespray/inventory/mycluster/inventory.ini -m ping
 ```
 
 ```bash title="inventory 파일내 전체 서버만 테스트"
-# inventory 파일내 전체 서버만 테스트
 ansible all -i /root/kubespray/inventory/mycluster/inventory.ini -m ping
 ```
 
@@ -266,3 +264,4 @@ kubectl edit dedit describe metrics-server -n kube-system
       --kubelet-insecure-tls=true               # 이부분 추가
       --metric-resolution=15s
 ```
+
