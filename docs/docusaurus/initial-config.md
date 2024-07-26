@@ -1,4 +1,4 @@
-# Docusaurus 설정 사항들
+# Docusaurus 초기 설정
 
 ### Codeblock 설정
 
