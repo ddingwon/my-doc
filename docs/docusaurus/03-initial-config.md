@@ -1,4 +1,4 @@
-# 2. Initial Config
+# 3. Initial Config
 
 ### Codeblock 설정
 
@@ -39,6 +39,18 @@ Codeblock `js title="Add Highlight Language"` 언어 다음 title을 사용해 t
 ### Git 연결 설정
 
 ### Sidebar 설정
+
+1. Sidebar font 설정
+Sidebar의 폰트 굵기 설정을 위해 /src/css/custem.css 파일에 내용 추가
+
+```css
+/* 사이드바 항목의 폰트 스타일 설정 */
+.menu__link {
+  font-size: 15px; /* 원하는 폰트 크기 */
+  font-weight: 700; /* 원하는 폰트 굵기 */
+}
+```
+
 
 ### Site title 설정
 
@@ -86,3 +98,43 @@ body {
   line-height: 1.6;
 }
 ```
+
+### Highlight.js 설정
+
+`/src/components/Homepagefeatures` 폴더 안에 Highlight.js 파일을 생성하고 MDX에서 해당 함수를 호출하여 사용할 수 있다. 
+
+- 예시
+
+```js title='src/components/Highlight.js'
+import React from 'react';
+
+export default function Highlight({children, color}) {
+  return (
+    <span
+      style={{
+        backgroundColor: color,
+        borderRadius: '2px',
+        color: '#fff',
+        padding: '0.2rem',
+      }}>
+      {children}
+    </span>
+  );
+}
+```
+
+- Markdown 파일에서 호출하여 사용
+
+- 예시
+
+```md title=docs/docusaurus/01-intro.md
+
+# <Highlight color="#25c2a0"> 1. Tutorial Intro </Highlight>
+
+```
+
+- 결과: 아래 이미지처럼 텍스트에 Highlight가 적용된다. 
+
+![alt text](image-1.png)
+
+

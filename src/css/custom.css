@@ -37,3 +37,21 @@ body {
   font-size: 14px;
   line-height: 1.6;
 }
+
+/* 사이드바 항목의 폰트 스타일 설정 */
+.menu__link {
+  font-size: 15px; /* 원하는 폰트 크기 */
+  font-weight: 700; /* 원하는 폰트 굵기 */
+}
+
+/* 리사이즈 가능한 사이드바 스타일 추가 */
+.resizable-sidebar {
+  resize: horizontal;
+  overflow: auto;
+  max-width: 300px;
+  min-width: 150px;
+}
+
+.main-content {
+  overflow: hidden;
+}

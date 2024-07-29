@@ -1,4 +1,4 @@
-# 3. Git 설정
+# 2. Git 설정
 ## Git Config
 Docusaurus 프로젝트를 로컬 PC에서 Git 저장소에 푸시하는 방법은 다음과 같습니다. 아래 단계들을 따라주세요:
 
