@@ -14,7 +14,7 @@
   --ifm-color-primary-light: #5C9CE7;
   --ifm-color-primary-lighter: #8DBFF1;
   --ifm-color-primary-lightest: #C2DFF7;
-  --ifm-code-font-size: 95%;
+  --ifm-code-font-size: 100%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 
@@ -36,4 +36,41 @@ body {
   font-family: Roboto, sans-serif;
   font-size: 14px;
   line-height: 1.6;
+}
+
+/* 사이드바 항목의 폰트 스타일 설정 */
+.menu__link {
+  font-size: 15px; /* 원하는 폰트 크기 */
+  font-weight: 700; /* 원하는 폰트 굵기 */
+}
+
+/* 리사이즈 가능한 사이드바 스타일 추가 */
+.resizable-sidebar {
+  resize: horizontal;
+  overflow: auto;
+  max-width: 300px;
+  min-width: 150px;
+}
+
+.main-content {
+  overflow: hidden;
+}
+
+/* 헤더 태그의 기본 스타일 설정 */
+h1 {
+  font-size: 2.2em; /* 글꼴 크기 */
+  font-weight: bold; /* 글꼴 굵기 */
+  color: #1f71ce; /* 글꼴 색상 */
+}
+
+h2 {
+  font-size: 1.7em;
+  font-weight: bold;
+  color: #18bb25;
+}
+
+h3 {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #df731b;
 }

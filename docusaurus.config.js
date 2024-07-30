@@ -67,6 +67,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
+        hideOnScroll: true,
         title: 'My Site',
         logo: {
           alt: 'My Site Logo',
@@ -85,8 +86,21 @@ const config = {
             label: 'GitHub',
             position: 'right',
           },
+          {
+            type: 'search',
+            position: 'left'
+          },
         ],
+
       },
+
+      docs: {
+        sidebar: {
+          hideable: true,
+          autoCollapseCategories: true,
+        },
+      },
+
       footer: {
         style: 'dark',
         links: [
@@ -138,6 +152,7 @@ const config = {
         additionalLanguages: ['java', 'bash'],
       },
     }),
+
 };
 
 export default config; 

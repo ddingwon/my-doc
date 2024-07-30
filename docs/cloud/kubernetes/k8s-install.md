@@ -2,7 +2,7 @@
 
 여기에서는 Kubernetes install은 kube-spray를 이용해 설치하는 과정을 설명합니다.
 
-## 1. git clone
+## 1. Git clone
 ```bash
 git clone https://github.com/kubernetes-sigs/kubespray.git
 ```
