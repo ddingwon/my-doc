@@ -75,11 +75,29 @@ const config = {
         },
         items: [
           {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
+            type: 'dropdown',
             label: 'Docs',
-          },
+            position: 'left',
+            items: [
+              {
+                to: '/docs/docusaurus/intro',
+                label: 'Docusaurus',
+              },
+              {
+                to: '/docs/cloud/kubernetes/k8s-install',
+                label: 'Cloud',
+              },
+              {
+                to: '/docs/db/intro',
+                label: 'Database',
+              },
+  
+              // 추가 항목을 여기 추가할 수 있습니다.
+              // 추가 항목을 여기 추가할 수 있습니다.
+            ],
+            },
+          
+          /*Don't be delete*/
           {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/facebook/docusaurus',
@@ -99,6 +117,7 @@ const config = {
           hideable: true,
           autoCollapseCategories: true,
         },
+        
       },
 
       footer: {
@@ -149,7 +168,7 @@ const config = {
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
-        additionalLanguages: ['java', 'bash'],
+        additionalLanguages: ['java', 'bash','ruby'],
       },
     }),
 
