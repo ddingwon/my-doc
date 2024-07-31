@@ -35,7 +35,7 @@ Docusaurus 프로젝트를 로컬 PC에서 Git 저장소에 푸시하는 방법�
 5. **원격 저장소에 푸시**:
    - 메인 브랜치(main 또는 master)에 푸시합니다.
    ```bash
-   git push -u origin main
+   git push -u origin master
    ```
 
 :::info
