@@ -91,12 +91,11 @@ body {
 /* 사이드바 항목의 폰트 스타일 설정 */
 .menu__link {
   font-size: 14px; /* 원하는 폰트 크기 */
-  font-weight: 800; /* 원하는 폰트 굵기 */
+  font-weight: 700; /* 원하는 폰트 굵기 */
 }
 
 /* 네비게이션바 가리기 */
 .main-content {
   overflow: hidden;
 }
-
 

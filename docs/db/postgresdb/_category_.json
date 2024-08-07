@@ -1,6 +1,5 @@
 {
-  "label": "Cloud",
-  "position": 2,
+  "label": "PostgreDB",
   "link": {
     "type": "generated-index"
   }

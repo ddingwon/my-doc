@@ -1,9 +1,7 @@
-import Highlight from '@site/src/components/HomepageFeatures/Highlight';
-
 
 #  1. Tutorial Intro 
 
-<Highlight color="#25c2a0"> Let's discover **Docusaurus in less than 5 minutes**. </Highlight>
+Let's discover **Docusaurus in less than 5 minutes**.
 
 ## Getting Started
 
